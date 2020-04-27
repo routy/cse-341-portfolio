@@ -17,7 +17,7 @@ export default function Navigation() {
         <>
         <AppBar position="relative">
           <Toolbar>
-            <Avatar className={classes.avatar} alt="Nick Routsong" src="/assets/img/nick-routsong.png" />
+            <Avatar className={classes.avatar} alt="Nick Routsong" src="/assets/img/nick-routsong-120.jpg" />
             <Typography variant="h6" color="inherit" noWrap>
               Nick Routsong | CSE 341: Web Backend Development II
             </Typography>
