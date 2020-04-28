@@ -2,30 +2,30 @@
 
 $portfolio_items = [
     [
-        'name' => 'Title 1',
+        'name' => 'Project Title 1',
         'description' => 'This is a description',
         'url' => '/this-is-the-url',
-        'featuredImage' => 'https://via.placeholder.com/150'
+        'featuredImage' => 'https://source.unsplash.com/random'
     ],
     [
-        'name' => 'Title 2',
+        'name' => 'Project Title 2',
         'description' => 'This is a description',
         'url' => '/this-is-the-url',
-        'featuredImage' => 'https://via.placeholder.com/150'
+        'featuredImage' => 'https://source.unsplash.com/random'
     ],
     [
-        'name' => 'Title 3',
+        'name' => 'Project Title 3',
         'description' => 'This is a description',
         'url' => '/this-is-the-url',
-        'featuredImage' => 'https://via.placeholder.com/150'
+        'featuredImage' => 'https://source.unsplash.com/random'
     ],
     [
-        'name' => 'Title 4',
+        'name' => 'Project Title 4',
         'description' => 'This is a description',
         'url' => '/this-is-the-url',
-        'featuredImage' => 'https://via.placeholder.com/150'
+        'featuredImage' => 'https://source.unsplash.com/random'
     ]
 ];
 
-echo json_encode( $portfolio_items );
+echo json_encode( ['portfolio' => $portfolio_items ]);
 exit;
