@@ -28,7 +28,7 @@ export default function Navigation() {
               Nick Routsong | CSE 341: Web Backend Development II
             </Typography>
             <Button color="inherit" href="/">Home</Button>
-            <Button color="inherit" href="/portfolio">Portfolio</Button>
+            <Button color="inherit" href="#/portfolio">Portfolio</Button>
           </Toolbar>
         </AppBar>
         </div>

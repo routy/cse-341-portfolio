@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import { HashRouter, Switch, Route } from 'react-router-dom';
 
 import Navigation from './components/Navigation';
 import Footer from './components/Footer';
@@ -11,8 +11,7 @@ import { CssBaseline } from '@material-ui/core';
 
 export default function App() {
   return (
-    <BrowserRouter>
-    <>
+    <HashRouter>
       <CssBaseline />
       <Navigation />
       <Switch>
@@ -21,7 +20,6 @@ export default function App() {
         <Route component={Error}/>
       </Switch>
       <Footer />
-    </> 
-  </BrowserRouter>
+  </HashRouter>
   );
 }

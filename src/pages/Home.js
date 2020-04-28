@@ -48,7 +48,7 @@ export default function Home() {
                 <div className={classes.heroButtons}>
                     <Grid container spacing={2} justify="center">
                         <Grid item>
-                            <Button variant="contained" color="primary" href="/portfolio">
+                            <Button variant="contained" color="primary" href="#/portfolio">
                                 View Portfolio
                             </Button>
                         </Grid>
@@ -62,7 +62,6 @@ export default function Home() {
                             View my GitHub
                             </Button>
                         </Grid>
-                        
                     </Grid>
                 </div>
                 </Container>
